@@ -1,0 +1,15 @@
+
+
+@media only screen and (max-width: 450px){
+    body{
+        margin: 0;
+        font-family: 'Dosis', sans-serif;
+    }
+}
+
+@media only screen and (max-width: 1900px) and (orientation: landscape){
+    body{
+        display: none;
+    }
+}
+

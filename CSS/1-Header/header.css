@@ -1,0 +1,12 @@
+@media only screen and (max-width: 450px){
+    header{
+        width: 100%;
+        height: 455px;
+
+        background-image: url("../../IMG/1-Header/header.jpg");
+        background-position-x: 80%;
+        background-size: cover;
+
+        font-family: 'Dosis', sans-serif;
+    }
+}

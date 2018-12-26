@@ -1,0 +1,47 @@
+@media only screen and (max-width: 450px){
+    .galeria{
+        width: 100%;
+        height: 350px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-bottom: 50px;
+    }
+    .galeria .container{
+        width: 90%;
+        height: 90%;
+    }
+
+    .galeria .container .left{
+        width: 50%;
+        height: 100%;
+
+        background-image: url("../../IMG/6-Galeria/left.jpeg");
+        background-position-x: 90%;
+        background-size: cover;
+    }
+
+    .galeria .container .right{
+        width: 50%;
+        height: 100%;
+    }
+
+    .top{
+        width: 100%;
+        height: 50%;
+
+        background-image: url("../../IMG/6-Galeria/right-top.jpeg");
+        background-position-x: 100%;
+        background-size: cover;
+    }
+    .bot{
+        width: 100%;
+        height: 50%;
+
+        background-image: url("../../IMG/6-Galeria/right-bot.jpeg");
+        background-position-x: 100%;
+        background-size: cover;
+    }
+}

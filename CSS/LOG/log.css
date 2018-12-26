@@ -1,0 +1,94 @@
+@media only screen and (max-width: 450px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        margin-bottom: 50px;
+
+        background-image: url("../../IMG/1-Header/header.jpg");
+    }
+    .avatar{
+        width: 100%;
+        height: 150px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .foto{
+        width: 80px;
+        height: 80px;
+
+        border-radius: 100%;
+
+        background-image: url("../../IMG/CARDS/user.png");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .content{
+        width: 90%;
+        height: 450px;
+
+        background-color: #fff;
+
+        box-shadow: 0 1px 10px 1px rgba(0,0,0,0.12);
+
+        border-radius: 10px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    /* FORM */
+
+    p{
+        width: 100%;
+        text-align: center;
+        color: #3f3f3f;
+    }
+    form{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    input{
+        width: 80%;
+
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+
+        border-bottom-color: #c7c7c7;
+
+        text-align: center;
+    }
+    button{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+        border: none;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        margin-top: 50px;
+
+        color: #3f3f3f;
+        font-family: 'Dosis', sans-serif;
+        font-size: 12pt;
+    }
+    a{
+        text-decoration: none;
+    }
+}
