@@ -1,4 +1,4 @@
-function openBuy(){
+function openBuy() {
     document.getElementById("buyBlock").style.display = "flex"
 
     document.getElementById("main").style.filter = "blur(3px)";
@@ -7,7 +7,7 @@ function openBuy(){
     document.getElementById("footer").style.filter = "blur(3px)";
 }
 
-function closeBuy(){
+function closeBuy() {
     document.getElementById("buyBlock").style.display = "none"
 
     document.getElementById("main").style.filter = "blur(0px)";
